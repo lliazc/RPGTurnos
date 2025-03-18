@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPGturnos1", "RPGturnos1.csproj", "{6F6D836D-5494-4110-8FFD-145561388ABF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F6D836D-5494-4110-8FFD-145561388ABF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F6D836D-5494-4110-8FFD-145561388ABF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F6D836D-5494-4110-8FFD-145561388ABF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F6D836D-5494-4110-8FFD-145561388ABF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C9802E6-D688-47A6-96C7-95242B7160BE}
+	EndGlobalSection
+EndGlobal

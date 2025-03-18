@@ -1,0 +1,11 @@
+C:\Users\Aluno\source\repos\RPGturnos1\bin\Debug\RPGturnos1.exe.config
+C:\Users\Aluno\source\repos\RPGturnos1\bin\Debug\RPGturnos1.exe
+C:\Users\Aluno\source\repos\RPGturnos1\bin\Debug\RPGturnos1.pdb
+C:\Users\Aluno\source\repos\RPGturnos1\obj\Debug\RPGturnos1.csproj.AssemblyReference.cache
+C:\Users\Aluno\source\repos\RPGturnos1\obj\Debug\RPGturnos1.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\source\repos\RPGturnos1\obj\Debug\RPGturnos1.exe
+C:\Users\Aluno\source\repos\RPGturnos1\obj\Debug\RPGturnos1.pdb
+C:\Users\Aluno\Downloads\RPGturnos1\obj\Debug\RPGturnos1.csprojAssemblyReference.cache
+C:\Users\Aluno\Downloads\RPGturnos1\obj\Debug\RPGturnos1.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\Downloads\RPGturnos1\obj\Debug\RPGturnos1.exe
+C:\Users\Aluno\Downloads\RPGturnos1\obj\Debug\RPGturnos1.pdb
