@@ -18,7 +18,7 @@ namespace RPGturnos1
         int experiencia;
         int vidapornivel;
         int energiapornivel;
-
+        string batalha;
 
 
         public void criarPersonagem()
@@ -37,7 +37,7 @@ namespace RPGturnos1
                 Console.WriteLine("4- Monge");
 
                 Console.WriteLine("Escreva a classe do seu personagem");
-                classe = Console.ReadLine().ToUpper;
+                classe = Console.ReadLine().ToUpper();
 
             } while (classe != "GUERREIRO" && classe != "ARQUEIRO" && classe != "MAGO" && classe != "MONGE");
 
@@ -64,6 +64,19 @@ namespace RPGturnos1
                 Console.ReadKey();
             }
 
+            Console.Clear();
+            Console.WriteLine("deseja começar uma batalha?");
+            Console.WriteLine(" (1) sim (2) não");
+            batalha = Console.ReadLine();
+            if (batalha == "1")
+            {
+                monstro Mob = new monstro();
+                Mob.criarMonstro();
+            }
+            else
+            {
+                Console.WriteLine("burro");
+            }
         }
 
 
@@ -147,4 +160,5 @@ namespace RPGturnos1
             Console.WriteLine("Energia Recebida Por Nível: " + energiapornivel);
         }
     }
+
 }

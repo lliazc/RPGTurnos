@@ -23,8 +23,10 @@ namespace RPGturnos1
                 Char.criarPersonagem();
 
                 itens  Equipes = new itens();
-                Equipes.cadrastarItem();
+                Equipes.cadastrarItem();
+
                 
+
             }
 
             else {
@@ -34,8 +36,8 @@ namespace RPGturnos1
                 Environment.Exit(0);
 
             }
+     
 
-            
         }
     }
 }
