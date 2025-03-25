@@ -33,7 +33,7 @@ namespace RPGturnos1
 
                 Console.WriteLine(" Aperte qualquer tecla para continuar.");
                 Console.ReadKey();
-                Environment.Exit(0);
+                Environment.Exit(9);
 
             }
      

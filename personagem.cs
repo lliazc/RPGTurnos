@@ -63,8 +63,11 @@ namespace RPGturnos1
                 construirMonge();
                 Console.ReadKey();
             }
-
             Console.Clear();
+            mapa Map = new mapa();
+            Map.cidadeCentral();
+
+            /*Console.Clear();
             Console.WriteLine("deseja começar uma batalha?");
             Console.WriteLine(" (1) sim (2) não");
             batalha = Console.ReadLine();
@@ -72,11 +75,12 @@ namespace RPGturnos1
             {
                 monstro Mob = new monstro();
                 Mob.criarMonstro();
+                //Chamando Monstro (passar para o mapa.)
             }
             else
             {
                 Console.WriteLine("burro");
-            }
+            }*/
         }
 
 
