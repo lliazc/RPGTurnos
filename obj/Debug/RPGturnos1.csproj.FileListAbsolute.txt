@@ -16,10 +16,10 @@ C:\Users\Aluno\Source\Repos\RPGTurnos\obj\Debug\RPGturnos1.pdb
 C:\Users\Aluno\Source\Repos\RPGTurnos\bin\Debug\RPGturnos1.exe.config
 C:\Users\Aluno\Source\Repos\RPGTurnos\bin\Debug\RPGturnos1.exe
 C:\Users\Aluno\Source\Repos\RPGTurnos\bin\Debug\RPGturnos1.pdb
-C:\Users\Aluno\RPGTurnos\obj\Debug\RPGturnos1.csprojAssemblyReference.cache
 C:\Users\Aluno\RPGTurnos\obj\Debug\RPGturnos1.csproj.CoreCompileInputs.cache
 C:\Users\Aluno\RPGTurnos\obj\Debug\RPGturnos1.exe
 C:\Users\Aluno\RPGTurnos\obj\Debug\RPGturnos1.pdb
 C:\Users\Aluno\RPGTurnos\bin\Debug\RPGturnos1.exe.config
 C:\Users\Aluno\RPGTurnos\bin\Debug\RPGturnos1.exe
 C:\Users\Aluno\RPGTurnos\bin\Debug\RPGturnos1.pdb
+C:\Users\Aluno\RPGTurnos\obj\Debug\RPGturnos1.csproj.AssemblyReference.cache

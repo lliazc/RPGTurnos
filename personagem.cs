@@ -39,26 +39,27 @@ namespace RPGturnos1
                 Console.WriteLine("Escreva a classe do seu personagem");
                 classe = Console.ReadLine().ToUpper();
 
-            } while (classe != "GUERREIRO" && classe != "ARQUEIRO" && classe != "MAGO" && classe != "MONGE");
+            } while (classe != "GUERREIRO" && classe != "ARQUEIRO" && classe != "MAGO" && classe != "MONGE" && classe != "1" && classe != "2"
+            && classe != "3" && classe != "4");
 
             Console.Clear();
             Console.WriteLine("Bem-vindo " + nome + "Você pertence a classe " + classe + " Seus atributos são: ");
-            if (classe == "GUERREIRO")
+            if (classe == "GUERREIRO" || classe == "1")
             {
                 construirGuerreiro();
                 Console.ReadKey();
             }
-            else if (classe == "ARQUEIRO")
+            else if (classe == "ARQUEIRO" || classe == "2")
             {
                 construirArqueiro();
                 Console.ReadKey();
             }
-            else if (classe == "MAGO")
+            else if (classe == "MAGO" || classe == "3")
             {
                 construirMago();
                 Console.ReadKey();
             }
-            else if (classe == "MONGE")
+            else if (classe == "MONGE" || classe == "4")
             {
                 construirMonge();
                 Console.ReadKey();

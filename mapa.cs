@@ -10,6 +10,8 @@ namespace RPGturnos1
     {
         string viagem;
         string destino;
+        int inimigo;
+        Random ataque = new Random(); 
 
         public void cidadeCentral()
         {
@@ -41,18 +43,21 @@ namespace RPGturnos1
                     minasEsquecidas();
                 }
 
+
             }
             else
             {
                 Console.Clear();
-                // batalha cidade central 
+                Console.ReadKey();
             }
-            
+
 
         }
 
         public void Porto()
         {
+            inimigo = ataque.Next(1,3);
+       
             Console.Clear();
             destino = "";
             viagem = "";
@@ -83,8 +88,17 @@ namespace RPGturnos1
               
             } else
             {
-                Console.Clear(); 
-                // iniciar batalha porto
+                Console.Clear();
+                if (inimigo == 1)
+                {
+                    Console.WriteLine("tomou enquadro, atividade cria");
+                }
+                else
+                {
+                    Console.WriteLine("suave");
+                    Console.ReadKey();
+
+                }
             }
 
 
@@ -105,7 +119,19 @@ namespace RPGturnos1
             else
             {
                 Console.Clear();
-                //inicia batalha ilha solitaria
+                inimigo = ataque.Next(1,3);
+                if (inimigo == 1)
+                {
+                    Console.WriteLine("Você foi atacado pelo bixo marinho do tíbia.");
+                    Console.ReadKey();
+
+                }
+                else
+                {
+                    Console.WriteLine("ta safe.");
+                    Console.ReadKey();
+
+                }
             }
         }
      public void Deserto()
@@ -114,28 +140,82 @@ namespace RPGturnos1
             Console.Clear();
             Console.WriteLine("você esta no deserto.");
             Console.ReadKey();
-            Console.WriteLine("não tem nada aqui.");
-            Console.Clear();
-            Console.WriteLine("A Cidade Central é a sua única saida.");
-            Console.WriteLine("Desaja voltar?");
+            Console.WriteLine("você pode voltar para a cidade central..");
+            Console.WriteLine("Desaja voltar? (sim ou não)");
             destino = Console.ReadLine();
             if (destino == "sim")
             {
                 cidadeCentral();
             } else
             {
-                Deserto();
+                inimigo = ataque.Next(1,5);
+                if (inimigo == 3)
+                {
+                    Console.WriteLine("tem um escorpião no seu sapato.");
+                    Console.ReadKey();
+
+                }
             }
         }
         public void minasEsquecidas()
         {
+            destino = "";
             Console.Clear();
             Console.WriteLine("Voce esta nas Minas Esquecidas.");
+            Console.WriteLine("Deseja voltar para a cidade central?");
+            Console.WriteLine("[1] sim [2] não");
+            destino = Console.ReadLine();
+            if (destino == "sim" || destino == "1")
+            {
+                Console.Clear();
+                cidadeCentral();
+            }
+            else
+            {
+                Console.Clear();
+                inimigo = ataque.Next(1, 5);
+                if (inimigo == 4)
+                {
+                    Console.WriteLine("se safou.");
+                    Console.ReadKey();
+
+                }
+                else
+                {
+                    Console.WriteLine("uma aranha gigante.");
+                    Console.ReadKey();
+
+
+                }
+            }
+
         }
         public void Floresta()
         {
-            Console.Clear()
+            destino = "";
+            Console.Clear();
                 Console.WriteLine("arvores.");
+            Console.WriteLine("Voce pode voltar para as Minas ou ir para a Cidade central");
+            Console.WriteLine("[1] Minas Esquecidas [2] Cidade Central  [3] ficar aqui");
+            destino = Console.ReadLine();
+            if (destino == "1")
+            {
+                minasEsquecidas();
+            }
+            else if (destino == "2")
+            {
+                cidadeCentral();
+            } else if (destino == "3")
+            {
+                Console.WriteLine("legal");
+                Console.ReadKey();
+
+            }
+            else
+            {
+                Console.WriteLine("oloco");
+                Console.ReadKey();
+            }
         }
 
     }
